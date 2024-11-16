@@ -31,3 +31,20 @@ To simplify the process, you can use the included PowerShell script.
 ## How to Use
 1. Clone or download this repository.
 2. Execute the `InstallWSL.ps1` script in PowerShell.
+## Instructions for Use of bootstrap.sh
+
+1. Clone the repository and navigate to the `ubuntu` folder:
+```bash
+git clone https://github.com/Spectrewolf2/ubtunu
+cd ubtunu
+```
+
+2. Make the script executable:
+```bash
+chmod +x bootstrap.sh
+```
+
+3. Run the script:
+```bash
+sudo ./bootstrap.sh
+```
