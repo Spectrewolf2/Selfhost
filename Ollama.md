@@ -23,14 +23,18 @@ sudo systemctl restart docker
 sudo docker run -d --gpus=all -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-### Ollama as a Docker container is now running.
+### Ollama as a Docker container is now running and can be accessed in your browser by typing localhost:11434.
 
 To run Ollama using Docker with AMD GPUs, use the `rocm` tag and the following command:
 ```
 docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama:rocm
 ```
 
-### Ollama as a Docker container is now running.
+### Ollama as a Docker container is now running and can be accessed in your browser by typing localhost:11434.
 
 
 ### Begin: Running Open-Web UI to interface via a web browser.
+
+```
+sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-web-ui --restart always ghcr.io/open-webui/open-webui:main
+```
