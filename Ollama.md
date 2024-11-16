@@ -48,3 +48,5 @@ sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE
 ```
 sudo docker exec -it ollama ollama run llama3
 ```
+
+Use /bye to exit the AI model.
