@@ -41,5 +41,9 @@ sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE
 
 ### Open-Web UI is now running and you can reach it via localhost:8080
 
-## 1. Create an email and password by clicking Sign up
-## 2. Enter a Name, Email, and Password and Create your account. This account will be used to manage Ollama. (Open WebUI does not make any external connections, and your data stays securely on your locally hosted server)
+ 1. Create an email and password by clicking Sign up
+ 2. Enter a Name, Email, and Password and Create your account. This account will be used to manage Ollama. (Open WebUI does not make any external connections, and your data stays securely on your locally hosted server)
+ 3. On your Ubuntu system run the following command
+```
+sudo docker exec -it ollama ollama run llama3
+'''
