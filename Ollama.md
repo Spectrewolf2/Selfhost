@@ -50,3 +50,10 @@ sudo docker exec -it ollama ollama run llama3
 ```
 
 Use /bye to exit the AI model.
+
+Try different models
+
+More models can be found on the Ollama library⁠:
+https://ollama.com/library
+Ollama Github:
+https://github.com/ollama/ollama
