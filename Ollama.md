@@ -38,3 +38,8 @@ docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 114
 ```
 sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-web-ui --restart always ghcr.io/open-webui/open-webui:main
 ```
+
+### Open-Web UI is now running and you can reach it via localhost:8080
+
+## 1. Create an email and password by clicking Sign up
+## 2. Enter a Name, Email, and Password and Create your account. This account will be used to manage Ollama. (Open WebUI does not make any external connections, and your data stays securely on your locally hosted server)
