@@ -55,5 +55,6 @@ Try different models
 
 More models can be found on the Ollama library⁠:
 https://ollama.com/library
+
 Ollama Github:
 https://github.com/ollama/ollama
