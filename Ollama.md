@@ -31,3 +31,6 @@ docker run -d --device /dev/kfd --device /dev/dri -v ollama:/root/.ollama -p 114
 ```
 
 ### Ollama as a Docker container is now running.
+
+
+### Begin: Running Open-Web UI to interface via a web browser.
