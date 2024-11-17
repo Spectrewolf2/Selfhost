@@ -22,7 +22,6 @@ sudo docker volume create jellyfin-cache
 ```
 sudo docker run -d \
  --name jellyfin \
- --user uid:gid \
  --net=host \
  --volume /path/to/config:/config \ # Alternatively --volume jellyfin-config:/config
  --volume /path/to/cache:/cache \ # Alternatively --volume jellyfin-cache:/cache
