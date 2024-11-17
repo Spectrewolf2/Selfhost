@@ -48,8 +48,12 @@ This repository is actively maintained and will continue to grow with guides for
 ## Getting Started
 1. Clone this repository:
 ```bash
-git clone https://placeholder.com/donotuse
-cd self-hosting-essentials
+git clone [https://placeholder.com/donotuse](https://github.com/Spectrewolf2/Selfhost)
+cd /service folder 
+
+or
+
+cd /Automated
 ```
 
 2. Navigate to the folder for the service you want to host and follow the instructions in its guide.
