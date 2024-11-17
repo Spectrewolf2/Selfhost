@@ -42,3 +42,15 @@ For a simple setup, it's considered easier to use Bind Mounts instead of volumes
 
 Note:
 The default network mode for Docker is bridge mode. Bridge mode will be used if host mode is omitted. Using host networking (--net=host) is optional but required in order to use DLNA.
+
+## Step 4: Access the Jellyfin container.
+- Open your browser and navigate to localhost:8089
+- Preferred Display Language: English
+- Set Username and Password. (More users can be created later)
+- Add media library if desired
+- Preferred Metadata Language: English
+- Country/Region: United States
+- Allow Remote Connections to this Server: Checked
+- Optional: Enable automatic port mapping
+This automatically forwards public ports on your router to local ports on your server via UPnP. This may not work with some router models or network configurations. Changes will not apply until after a server restart.
+- Finish
