@@ -44,7 +44,7 @@ Note:
 The default network mode for Docker is bridge mode. Bridge mode will be used if host mode is omitted. Using host networking (--net=host) is optional but required in order to use DLNA.
 
 ## Step 4: Access the Jellyfin container.
-- Open your browser and navigate to localhost:8089
+- Open your browser and navigate to localhost:8096
 - Preferred Display Language: English
 - Set Username and Password. (More users can be created later)
 - Add media library if desired
